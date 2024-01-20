@@ -1,0 +1,14 @@
+{
+  "extends": "tsconfig-jc",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@site/*": ["./*"]
+    },
+    "jsx": "react-native",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "exactOptionalPropertyTypes": true
+  },
+  "include": ["src/", "docusaurus.config.js"]
+}

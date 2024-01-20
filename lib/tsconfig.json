@@ -1,0 +1,16 @@
+{
+  "extends": "tsconfig-jc",
+  "include": ["src"],
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "target": "esnext",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "importHelpers": true,
+    "noEmitHelpers": true
+  }
+}
